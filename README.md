@@ -1,0 +1,1 @@
+一个简单的 [daed](https://github.com/daeuniverse/daed) 订阅自动更新工具，适用于当前最新版本 0.33.p1。
