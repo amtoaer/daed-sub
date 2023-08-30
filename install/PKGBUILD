@@ -21,6 +21,6 @@ prepare() {
 }
 
 package() {
-	install -D -m 755 $srcdir/daed-sub/daed-sub $pkgdir/usr/bin/daed-sub
+    install -D -m 755 $srcdir/daed-sub/daed-sub $pkgdir/usr/bin/daed-sub
     install -D -m 755 $srcdir/daed-sub.service $pkgdir/usr/lib/systemd/system/daed-sub.service
 }
