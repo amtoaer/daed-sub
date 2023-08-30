@@ -1,0 +1,14 @@
+[Unit]
+Description=daed sub Service
+Documentation=https://github.com/amtoaer/daed-sub
+After=network-online.target docker.service systemd-sysctl.service
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=root
+ExecStart=/usr/bin/daed-sub daemon
+Restart=on-abnormal
+
+[Install]
+WantedBy=multi-user.target

@@ -1,1 +1,4 @@
 daed-sub
+*.tar.zst
+install/src
+install/pkg
